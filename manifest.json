@@ -2,7 +2,7 @@
   "name": "RecentTab",
   "version": "0.0.0.1",
   "description": "Adds an 'Alt+Q' shortcut to switch back to the most recent tab",
-  "permissions": ["tabs", "activeTab", "declarativeContent", "storage", "http://*/", "https://*/"],
+  "permissions": ["tabs", "storage", "http://*/", "https://*/"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
